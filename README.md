@@ -15,15 +15,19 @@ MiniCoreNet is a portable, plug-and-play micro-network designed to give technici
 No installation needed. Can run from any drive on any system with Bash and basic utilities.
 
 **Secure file sharing**
+
 Share files across connected nodes using encrypted methods. No cloud, no exposure.
 
 **Peer-to-peer communication**
+
 Send and receive secure messages over LAN, VPN, or offline environments.
 
 **Autonomous node design**
+
 Every instance of MiniCoreNet is a functional micro-node—no servers, no sign-ins.
 
 **Modular utility scripts**
+
 Built-in tools for verification, encryption, diagnostics, and routing.
 
 **Ideal for:**
