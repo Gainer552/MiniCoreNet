@@ -71,9 +71,13 @@ Using MiniCoreNet is simple. Once inside the main directory, launch the primary 
 2. From here, users can:
 
 • Securely share files with connected peers using encrypted transfers.
+
 • Send encrypted messages over LAN or VPN without relying on third-party servers.
+
 • Connect to another MiniCoreNet node by specifying their IP or hostname.
+
 • Broadcast local system status to notify peers of availability or alerts.
+
 • Wipe logs and temporary data to maintain operational privacy (optional).
 
 Each function is modular, meaning users can customize, replace, or expand functionality depending on their workflow or security requirements. MiniCoreNet can run indefinitely as a background service or be used on demand for quick tasks. It works in remote offices, labs, secure environments, or any situation where centralized infrastructure is unavailable or undesirable.
