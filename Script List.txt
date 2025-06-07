@@ -1,0 +1,10 @@
+**MiniCoreNet Script List**
+
+• start.sh - Main launcher script. Validates environment, runs connect.sh, mounts encrypted vault (optional), loads UI or CLI menu.
+• setup_auth.sh - One-time authentication provisioning setup. Generates your key pair and builds trusted_keys/.
+• connect.sh	- Connects to remote node using WireGuard/OpenVPN, then authenticates user with public key handshake.
+• log_event.sh - Core logging utility. Appends timestamped entries to log files, called by all other scripts.
+• integrity_check.sh	- Daily SHA-256 hash check for all logs. Detects tampering, optionally triggers alert/log.
+• trust_manager.sh - Manages trust relationships. Adds/removes trusted public keys, rotates auth keys, handles peer provisioning.
+• config.json	- Central config file for ports, peer info, paths, encryption settings, MAC spoofing flags, etc.
+• README.txt - Contains all necessary usage and recovery instructions for the operator or future maintainers.
