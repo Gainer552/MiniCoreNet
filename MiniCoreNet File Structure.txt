@@ -1,0 +1,10 @@
+/MiniCoreNet
+├── minicorenet.sh             # Main launcher script
+├── /core                      # Core libraries & support scripts
+│   ├── net_init.sh
+│   ├── crypto_engine.sh
+│   ├── comms_handler.sh
+│   └── settings.conf
+├── /data                      # Encrypted data container
+├── /bin                       # Statically compiled binaries (dropbear, openssl, ipfs, etc.)
+└── /docs                      # Optional: usage instructions or logs
