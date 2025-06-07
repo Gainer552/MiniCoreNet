@@ -1,0 +1,15 @@
+MiniCoreNet/
+├── start.sh
+├── setup_auth.sh
+├── connect.sh
+├── log_event.sh
+├── integrity_check.sh
+├── trust_manager.sh
+├── config.json
+├── trusted_keys/
+├── logs/
+│   ├── auth.log
+│   ├── session.log
+│   ├── errors.log
+│   └── system.log
+└── README.txt
