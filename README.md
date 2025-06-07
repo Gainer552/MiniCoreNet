@@ -33,12 +33,19 @@ Built-in tools for verification, encryption, diagnostics, and routing.
 **Ideal for:**
 
 • Freelance IT Technicians.
+
 • Freelance Developers.
+
 • Freelance Cybersecurity Specialists.
+
 • Digital nomads.
+
 • Disaster recovery teams.
+
 • Airgapped environments.
+
 • Ethical Hackers
+
 • Cybersecurity Enthusiasts
 
 **Installation**
@@ -46,9 +53,13 @@ Built-in tools for verification, encryption, diagnostics, and routing.
 MiniCoreNet is designed to be fully portable and requires no traditional installation. It can be cloned, copied, or downloaded onto any directory, external drive, or USB stick. To begin, simply clone the repository or download the ZIP file:
 
 1. Clone the repository: git clone https://github.com/yourusername/minicorenet.git Or download the ZIP: Download ZIP
+
 2. Once extracted, navigate into the project directory. A one-time dependency setup script is provided to ensure all required tools are installed. These include essential utilities such as rsync, gpg, ncat, and other commonly available Linux packages. To install dependencies:
+
 3. Make the script executable: chmod +x install-deps.sh
+
 4. Run the script with root privileges: sudo ./install-deps.sh
+
 5. After this initial step, MiniCoreNet is fully functional. You can now run it from any Linux system without needing to repeat the installation process.
 
 **Usage**
@@ -56,6 +67,7 @@ MiniCoreNet is designed to be fully portable and requires no traditional install
 Using MiniCoreNet is simple. Once inside the main directory, launch the primary script to begin using the toolset. The system provides access to secure file sharing, node-to-node messaging, encrypted communication, and status broadcasting. All operations are CLI-based and modular.
 
 1. To start, run: ./minicorenet.sh
+   
 2. From here, users can:
 
 • Securely share files with connected peers using encrypted transfers.
@@ -71,7 +83,9 @@ Each function is modular, meaning users can customize, replace, or expand functi
 MiniCoreNet isn’t just a project. It’s a mindset:
 
 • Private, resilient, and sovereign-by-design.
+
 • Built to outlast outages, outmaneuver censorship, and outclass bloated cloud platforms, MiniCoreNet enables professionals to communicate and share data freely without relying on third parties.
+
 • Use it in the office, at home, during travel, or in emergencies. If there’s a computer, you can operate.
 
 **Legal Disclaimer**
@@ -79,8 +93,13 @@ MiniCoreNet isn’t just a project. It’s a mindset:
 MiniCoreNet is an open-source project released for educational, professional, and lawful use only. By downloading, copying, modifying, or executing any part of this repository, you agree to the following:
 
 • You are solely responsible for how this software is used.
+
 • MiniCoreNet is intended for legal file sharing and communication between consenting parties. It must not be used for unlawful surveillance, unauthorized access, or distribution of illicit content.
+
 • This software is provided "as is" without warranty, support, or guarantees of fitness for any specific purpose.
+
 • The author assumes no liability for misuse, data loss, security breaches, or damages resulting from its use.
+
 • It is your responsibility to ensure that your use of MiniCoreNet complies with local and international laws.
+
 • By using MiniCoreNet, you acknowledge and accept these terms.
