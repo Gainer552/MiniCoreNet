@@ -1,0 +1,45 @@
+{
+  "network": {
+    "vpn_type": "wireguard",
+    "vpn_interface": "wg0",
+    "vpn_config_path": "./vpn/wg0.conf",
+    "vpn_endpoint": "remote.minicorenet.net:51820",
+    "vpn_port": 51820
+  },
+  "auth": {
+    "key_name": "identity_key",
+    "key_dir": "./keys",
+    "trusted_keys_dir": "./trusted_keys"
+  },
+  "trust": {
+    "auto_add_new_peers": false,
+    "trust_rotation_days": 90
+  },
+  "storage": {
+    "vault_enabled": true,
+    "vault_path": "./vault",
+    "vault_mount_point": "./mnt/vault",
+    "vault_passphrase_file": "./vault/.passphrase"
+  },
+  "logging": {
+    "log_dir": "./logs",
+    "log_retention_days": 30,
+    "log_level": "info"
+  },
+  "security": {
+    "mac_spoofing": true,
+    "spoofed_mac_prefix": "00:13:37",
+    "integrity_check_enabled": true,
+    "daily_hash_file": "./logs/.integrity_hash"
+  },
+  "ui": {
+    "mode": "cli",
+    "welcome_message": "Welcome to MiniCoreNet",
+    "color_theme": "green_on_black"
+  },
+  "system": {
+    "hostname_prefix": "mcn-",
+    "max_nodes": 8,
+    "heartbeat_interval_sec": 60
+  }
+}
