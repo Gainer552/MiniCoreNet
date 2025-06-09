@@ -46,7 +46,7 @@ MiniCoreNet is fully portable and requires no traditional installation. It can b
 To begin:
 
 ```bash
-git clone https://github.com/yourusername/minicorenet.git
+git clone https://github.com/Gainer552/minicorenet.git
 ```
 
 Or download the ZIP.
