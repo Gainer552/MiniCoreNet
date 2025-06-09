@@ -86,6 +86,18 @@ MiniCoreNet isn’t just a tool — it’s a mindset:
 • Built to outlast outages, outmaneuver censorship, and outclass bloated cloud platforms
 • If there’s a computer, you can operate.
 
+**DISCLAIMER**
+
+MiniCoreNet is provided as-is for educational and personal use only.
+This project is designed to offer private, secure, and decentralized communication and file sharing among trusted parties.
+
+Use of this software is at your own risk.
+The author assumes no responsibility and no liability for any damage, misuse, legal consequences, or unintended outcomes resulting from the use, distribution, modification, or deployment of this software.
+
+By using this tool, you agree that you are solely responsible for complying with all local laws, regulations, and acceptable use policies relevant to your jurisdiction or organization.
+
+
+
 **Legal Disclaimer**
 
 MiniCoreNet is open-source and intended for **educational, professional, and lawful use only**.
